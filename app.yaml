@@ -12,3 +12,14 @@ handlers:
 - url: /
   static_files: index.html
   upload: index.html
+
+skip_files:
+- ^(.*/)?app\.yaml
+- ^(.*/)?app\.md
+- Gruntfile.js
+- .gitignore
+- package.json
+- README.md
+- ^node_modules/(.*/)?
+- ^.git/(.*/)?
+- ^.idea/(.*/)?
