@@ -6,8 +6,7 @@ module.exports = function(grunt) {
         watch: {
             all: {
                 options: {livereload: true},
-                files: ['index.html', 'Gruntfile.js', 'js/*.js'],
-                tasks: ['connect']
+                files: ['index.html', 'Gruntfile.js', 'js/*.js']
             }
         },
 
