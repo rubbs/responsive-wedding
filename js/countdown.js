@@ -6,7 +6,7 @@ function countdown () {
 
     var actDate = new Date();
 
-    var diff = endDate - actDate;
+    var diff = actDate - endDate;
 
 
     var diffSeconds = Math.floor(diff / 1000);
