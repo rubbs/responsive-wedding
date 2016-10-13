@@ -13,6 +13,7 @@ input,
 select,
 textarea {
     color: #222;
+    background-color: #1e1e1e;
 }
 
 body {
@@ -283,7 +284,8 @@ section {
     padding: 25px;
     background-color: black;
     height: 100%;
-    margin-top: 200px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     color: white;
 
     -ms-border-radius: 8px;

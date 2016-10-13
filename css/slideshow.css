@@ -4,6 +4,10 @@
     display: none
 }
 
+#slides .slidesjs-container {
+    height: 650px;
+}
+
 #slides .slidesjs-navigation {
     margin-top:5px;
 }
